@@ -1,14 +1,11 @@
 [build-system]
-build-backend = 'mesonpy'
-requires = ['meson-python']
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "libs411"
-version = "0.0.3"
+version = "0.0.4"
 authors = [
     { name = "fulei", email = "fulei@411.com" },
 ]
 description = "a project for development"
-dependencies = [
-    "meson-python",
-]
